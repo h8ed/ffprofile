@@ -1,0 +1,12 @@
+1553753483192	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1553754083193	Sync.Service	DEBUG	User-Agent: Firefox/66.0.1 (Linux x86_64) FxSync/1.68.0.20190322215816.desktop
+1553754083193	Sync.Service	INFO	Starting sync at 2019-03-27 23:21:23 in browser session kR5Asbp4-pUn
+1553754083194	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1553754083197	Sync.Status	INFO	Resetting Status.
+1553754083197	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1553754097358	Sync.Resource	WARN	GET request to https://sync-623-us-west-2.sync.services.mozilla.com/1.5/96838625/info/collections failed: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1553754097359	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1553754097359	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1553754097359	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available
+1553754097360	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1553754097363	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The connection has timed out"  nsresult: "0x804b000e (NS_ERROR_NET_TIMEOUT)"  location: "<unknown>"  data: no] No traceback available

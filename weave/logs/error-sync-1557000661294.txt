@@ -1,0 +1,154 @@
+1556998714238	Sync.Service	INFO	Loading Weave 1.68.0
+1556998714239	Sync.Engine.Clients	DEBUG	Engine constructed
+1556998714239	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1556998714247	Sync.Engine.Addons	DEBUG	Engine constructed
+1556998714267	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1556998714270	Sync.Engine.Forms	DEBUG	Engine constructed
+1556998714278	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1556998714280	Sync.Engine.History	DEBUG	Engine constructed
+1556998714282	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1556998714284	Sync.Engine.Passwords	DEBUG	Engine constructed
+1556998714291	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1556998714293	Sync.Engine.Prefs	DEBUG	Engine constructed
+1556998714294	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1556998714296	Sync.Engine.Tabs	DEBUG	Engine constructed
+1556998714314	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1556998714314	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1556998714317	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1556998714318	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1556998714323	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1556998714324	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1556998714325	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+1556998714326	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1556998714326	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1556998714326	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1556998714328	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => error.login.reason.no_username
+1556998714328	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1556998714328	Sync.Status	DEBUG	Status.service: service.client_not_configured => service.client_not_configured
+1556998714331	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Initialized
+1556998714332	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1556998714332	FirefoxAccounts	DEBUG	getOAuthToken enter
+1556998714336	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1556998714336	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1556998714337	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1556998714337	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1556998714337	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1556998714337	Services.Common.RESTRequest	TRACE	HTTP Header if-none-match: "c35440f8bf0d024d03ac28b907a6f5f92c6e3b78-gzip"
+1556998714532	Services.Common.RESTRequest	TRACE	onStartRequest: GET https://profile.accounts.firefox.com/v1/profile
+1556998714534	Services.Common.RESTRequest	TRACE	Channel for GET https://profile.accounts.firefox.com/v1/profile returned status code 0
+1556998714534	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 401
+1556998714535	FirefoxAccounts	INFO	Fetching the profile returned a 401 - revoking our token and retrying
+1556998714537	FirefoxAccounts	DEBUG	FxAccountsOAuthGrantClient Initialized
+1556998714538	Services.Common.RESTRequest	DEBUG	POST request to https://oauth.accounts.firefox.com/v1/destroy
+1556998714538	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1556998714538	Services.Common.RESTRequest	TRACE	HTTP Header content-type: application/json
+1556998714538	Services.Common.RESTRequest	DEBUG	POST Length: 76
+1556998714538	Services.Common.RESTRequest	TRACE	POST Body: {"token":"96a4162de75264097f8a5fcbf94b0e109494e677511101bb864a56c62f27d14a"}
+1556998714540	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1556998714540	FirefoxAccounts	DEBUG	getOAuthToken enter
+1556998714541	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache"]
+1556998714542	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache"]
+1556998714546	FirefoxAccounts	DEBUG	FxAccountsOAuthGrantClient Initialized
+1556998714546	FirefoxAccounts	DEBUG	getOAuthToken fetching new token from: https://oauth.accounts.firefox.com/v1
+1556998714546	FirefoxAccounts	DEBUG	enter getAssertion()
+1556998714554	FirefoxAccounts	TRACE	finished write of json user data - took: 11
+1556998714554	FirefoxAccounts	DEBUG	writing secure storage: ["kSync","kXCS","kExtSync","kExtKbHash"]
+1556998714554	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1556998714558	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1556998714558	FirefoxAccounts	DEBUG	got keyPair
+1556998714558	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1556998714559	Services.Common.RESTRequest	TRACE	local time, offset: 1556998714559, 0
+1556998714560	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/certificate/sign
+1556998714560	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1556998714560	Services.Common.RESTRequest	TRACE	HTTP Header content-type: application/json
+1556998714560	Services.Common.RESTRequest	TRACE	HTTP Header accept-language: en-US, en
+1556998714561	Services.Common.RESTRequest	DEBUG	POST Length: 888
+1556998714561	Services.Common.RESTRequest	TRACE	POST Body: {"publicKey":{"algorithm":"DS","y":"99146AC8F2C65E5FFC6478AEB84F0DE140B520A5578E87806574906F21EDCA6B21AABE6F6480418BFCA2987E4392D0632A9DEE4966D3B7D47C5FE5CD4929A06D094CFF5F5ADC8A148434791581E0D90D67FBABA7997920587EE048623FE5ED7DF8A5806900D1BB097110063AD30B9CA93CCA3B0B9362E8675EAF4B47B828F596","p":"FF600483DB6ABFC5B45EAB78594B3533D550D9F1BF2A992A7A8DAA6DC34F8045AD4E6E0C429D334EEEAAEFD7E23D4810BE00E4CC1492CBA325BA81FF2D5A5B305A8D17EB3BF4A06A349D392E00D329744A5179380344E82A18C47933438F891E22AEEF812D69C8F75E326CB70EA000C3F776DFDBD604638C2EF717FC26D02E17","q":"E21E04F911D1ED7991008ECAAB3BF775984309C3","g":"C52A4A0FF3B7E61FDF1867CE84138369A6154F4AFA92966E3C827E25CFA6CF508B90E5DE419E1337E07A2E9E2A3CD5DEA704D175F8EBF6AF397D69E110B96AFB17C7A03259329E4829B0D03BBC7896B15B4ADE53E130858CC34D96269AA89041F409136C7242A38895C9D5BCCAD4F389AF1D7A4BD1398BD072DFFA896233397A"},"duration":21600000}
+1556998714709	Services.Common.RESTRequest	TRACE	onStartRequest: POST https://oauth.accounts.firefox.com/v1/destroy
+1556998714710	Services.Common.RESTRequest	TRACE	Channel for POST https://oauth.accounts.firefox.com/v1/destroy returned status code 0
+1556998714710	Services.Common.RESTRequest	DEBUG	POST https://oauth.accounts.firefox.com/v1/destroy 400
+1556998714710	FirefoxAccounts	WARN	FxA failed to revoke a cached token: {"name":"FxAccountsOAuthGrantClientError","code":400,"errno":1108,"error":"Bad Request","message":"Invalid token"}
+1556998714737	Services.Common.RESTRequest	TRACE	onStartRequest: POST https://api.accounts.firefox.com/v1/certificate/sign
+1556998714738	Services.Common.RESTRequest	TRACE	Channel for POST https://api.accounts.firefox.com/v1/certificate/sign returned status code 0
+1556998714738	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/certificate/sign 200
+1556998714738	Hawk	DEBUG	(Response) /certificate/sign: code: 200 - Status text: OK
+1556998714738	Services.Common.RESTResponse	TRACE	Processing response headers.
+1556998714738	Hawk	DEBUG	Clock offset vs https://api.accounts.firefox.com/v1: -7738
+1556998714738	FirefoxAccounts	DEBUG	getCertificate got a new one: true
+1556998714739	FirefoxAccounts	DEBUG	_updateAccountData with items: ["keyPair","cert"]
+1556998714739	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache"]
+1556998714739	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache"]
+1556998714739	FirefoxAccounts	DEBUG	getAssertionFromCert
+1556998714740	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1556998714741	Services.Common.RESTRequest	DEBUG	POST request to https://oauth.accounts.firefox.com/v1/authorization
+1556998714741	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1556998714741	Services.Common.RESTRequest	TRACE	HTTP Header content-type: application/json
+1556998714741	Services.Common.RESTRequest	DEBUG	POST Length: 2322
+1556998714741	Services.Common.RESTRequest	TRACE	POST Body: {"scope":"profile","client_id":"5882386c6d801776","assertion":"eyJhbGciOiJSUzI1NiJ9.eyJwdWJsaWMta2V5Ijp7ImFsZ29yaXRobSI6IkRTIiwieSI6Ijk5MTQ2QUM4RjJDNjVFNUZGQzY0NzhBRUI4NEYwREUxNDBCNTIwQTU1NzhFODc4MDY1NzQ5MDZGMjFFRENBNkIyMUFBQkU2RjY0ODA0MThCRkNBMjk4N0U0MzkyRDA2MzJBOURFRTQ5NjZEM0I3RDQ3QzVGRTVDRDQ5MjlBMDZEMDk0Q0ZGNUY1QURDOEExNDg0MzQ3OTE1ODFFMEQ5MEQ2N0ZCQUJBNzk5NzkyMDU4N0VFMDQ4NjIzRkU1RUQ3REY4QTU4MDY5MDBEMUJCMDk3MTEwMDYzQUQzMEI5Q0E5M0NDQTNCMEI5MzYyRTg2NzVFQUY0QjQ3QjgyOEY1OTYiLCJwIjoiRkY2MDA0ODNEQjZBQkZDNUI0NUVBQjc4NTk0QjM1MzNENTUwRDlGMUJGMkE5OTJBN0E4REFBNkRDMzRGODA0NUFENEU2RTBDNDI5RDMzNEVFRUFBRUZEN0UyM0Q0ODEwQkUwMEU0Q0MxNDkyQ0JBMzI1QkE4MUZGMkQ1QTVCMzA1QThEMTdFQjNCRjRBMDZBMzQ5RDM5MkUwMEQzMjk3NDRBNTE3OTM4MDM0NEU4MkExOEM0NzkzMzQzOEY4OTFFMjJBRUVGODEyRDY5QzhGNzVFMzI2Q0I3MEVBMDAwQzNGNzc2REZEQkQ2MDQ2MzhDMkVGNzE3RkMyNkQwMkUxNyIsInEiOiJFMjFFMDRGOTExRDFFRDc5OTEwMDhFQ0FBQjNCRjc3NTk4NDMwOUMzIiwiZyI6IkM1MkE0QTBGRjNCN0U2MUZERjE4NjdDRTg0MTM4MzY5QTYxNTRGNEFGQTkyOTY2RTNDODI3RTI1Q0ZBNkNGNTA4QjkwRTVERTQxOUUxMzM3RTA3QTJFOUUyQTNDRDVERUE3MDREMTc1RjhFQkY2QUYzOTdENjlFMTEwQjk2QUZCMTdDN0EwMzI1OTMyOUU0ODI5QjBEMDNCQkM3ODk2QjE1QjRBREU1M0UxMzA4NThDQzM0RDk2MjY5QUE4OTA0MUY0MDkxMzZDNzI0MkEzODg5NUM5RDVCQ0NBRDRGMzg5QUYxRDdBNEJEMTM5OEJEMDcyREZGQTg5NjIzMzM5N0EifSwicHJpbmNpcGFsIjp7ImVtYWlsIjoiYTMxMDEwYjliZTU2NDEzYmIxOTU0ZmJhZjBhYzUwYTFAYXBpLmFjY291bnRzLmZpcmVmb3guY29tIn0sImlhdCI6MTU1Njk5ODY5NzExMCwiZXhwIjoxNTU3MDIwMzA3MTEwLCJmeGEtZ2VuZXJhdGlvbiI6MTUyMTA5OTMyMzE2MywiZnhhLWxhc3RBdXRoQXQiOjE1NTM1OTc5NjMsImZ4YS12ZXJpZmllZEVtYWlsIjoib3RyZW50eEBnbWFpbC5jb20iLCJmeGEtZGV2aWNlSWQiOiI2YzAxZWFkN2IyZWY4NDk2OWE1OWQ0ODliNDVlMjZiZCIsImZ4YS10b2tlblZlcmlmaWVkIjp0cnVlLCJmeGEtYW1yIjpbInB3ZCIsImVtYWlsIl0sImZ4YS1hYWwiOjEsImZ4YS1wcm9maWxlQ2hhbmdlZEF0IjoxNTIxMDk5MzIzMTYzLCJpc3MiOiJhcGkuYWNjb3VudHMuZmlyZWZveC5jb20ifQ.1591KcnANBVMosYywnMvU4HXyJrbOGCYTETv5Z_BoRLep1j9tIPtm432RK54zIiFt2epUHaS_h6DmCbYKGevXA5kRGZm0vEU-hNogIyVFMMY_0mkUDF1KozZcgQkpDd2YXZN85MXe5PLGZCYoHe4abZvSBN3YB4HK0ntXFOaocKL-D2IiUzi0H_28SRgLaOl0BB-7gDYg8j0MUaApGOtC8e7hZ8jzWEuAudrftNziPolmyl1pghi6EebBHmcP7ANM2_hrO2jXnHzGGeM_Ku-7ddLeuc9TYglGEsCB14QZfvX7xMKUmvVF2JluMkSqogmYJHPvBldI7BX6FffrB_cVw~eyJhbGciOiJEUzEyOCJ9.eyJleHAiOjIzNDUzOTg3MDcwMDEsImF1ZCI6Imh0dHBzOi8vb2F1dGguYWNjb3VudHMuZmlyZWZveC5jb20vdjEifQ==.zKC8ZaBpwuZHnaAeSSdKzy9YKkJtfh5218j3wj3599h2jM52P5Gn2Q==","response_type":"token"}
+1556998714743	FirefoxAccounts	TRACE	finished write of json user data - took: 4
+1556998714743	FirefoxAccounts	DEBUG	writing secure storage: ["kSync","kXCS","kExtSync","kExtKbHash"]
+1556998714743	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1556998714748	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1556998714802	Services.Common.RESTRequest	TRACE	onStartRequest: POST https://oauth.accounts.firefox.com/v1/authorization
+1556998714802	Services.Common.RESTRequest	TRACE	Channel for POST https://oauth.accounts.firefox.com/v1/authorization returned status code 0
+1556998714802	Services.Common.RESTRequest	DEBUG	POST https://oauth.accounts.firefox.com/v1/authorization 200
+1556998714803	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1556998714803	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1556998714803	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1556998714803	Services.Common.RESTRequest	TRACE	HTTP Header if-none-match: "c35440f8bf0d024d03ac28b907a6f5f92c6e3b78-gzip"
+1556998714804	FirefoxAccounts	DEBUG	_updateAccountData with items: ["oauthTokens"]
+1556998714804	FirefoxAccounts	DEBUG	writing plain storage: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache"]
+1556998714804	FirefoxAccounts	TRACE	starting write of json user data: ["email","sessionToken","uid","verified","device","oauthTokens","profileCache"]
+1556998714806	FirefoxAccounts	TRACE	finished write of json user data - took: 2
+1556998714807	FirefoxAccounts	DEBUG	writing secure storage: ["kSync","kXCS","kExtSync","kExtKbHash"]
+1556998714807	FirefoxAccounts	TRACE	starting write of user data to the login manager
+1556998714810	FirefoxAccounts	TRACE	finished write of user data to the login manager
+1556998714853	Services.Common.RESTRequest	TRACE	onStartRequest: GET https://profile.accounts.firefox.com/v1/profile
+1556998714853	Services.Common.RESTRequest	TRACE	Channel for GET https://profile.accounts.firefox.com/v1/profile returned status code 0
+1556998714853	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1557000649977	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1557000649977	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1557000649981	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1557000650977	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1557000661273	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1557000661273	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1557000661274	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1557000661276	Sync.Service	DEBUG	User-Agent: Firefox/66.0.3 (Linux x86_64) FxSync/1.68.0.20190410203753.desktop
+1557000661277	Sync.Service	INFO	Starting sync at 2019-05-04 13:11:01 in browser session yLCd9jrSA0es
+1557000661277	Sync.Service	DEBUG	In sync: should login.
+1557000661278	Sync.Service	INFO	User logged in successfully - verifying login.
+1557000661279	Sync.BrowserIDManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1557000661280	Sync.Status	DEBUG	Status.login: error.login.reason.no_username => success.status_ok
+1557000661280	Sync.Status	DEBUG	Status.service: service.client_not_configured => error.login.failed
+1557000661280	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1557000661281	Sync.BrowserIDManager	INFO	Getting keys
+1557000661281	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1557000661281	FirefoxAccounts	DEBUG	enter getAssertion()
+1557000661282	FirefoxAccounts	DEBUG	getKeypairAndCertificate: already have keyPair and certificate
+1557000661282	FirefoxAccounts	DEBUG	getAssertionFromCert
+1557000661283	FirefoxAccounts	DEBUG	getAssertionFromCert returning signed: true
+1557000661284	Sync.BrowserIDManager	DEBUG	Getting a token
+1557000661284	Services.Common.TokenServerClient	DEBUG	Beginning BID assertion exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1557000661284	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1557000661284	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1557000661284	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1557000661284	Services.Common.RESTRequest	TRACE	HTTP Header x-client-state: ***** (suppressed)
+1557000661287	Services.Common.RESTRequest	TRACE	onStartRequest: GET https://token.services.mozilla.com/1.0/sync/1.5
+1557000661288	Services.Common.RESTRequest	TRACE	Channel for GET https://token.services.mozilla.com/1.0/sync/1.5 returned status code 2152398878
+1557000661288	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1557000661288	Services.Common.RESTRequest	TRACE	GET body: 
+1557000661288	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:36:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:59:16
+getTokenFromBrowserIDAssertion@tokenserverclient.js:245:13
+1557000661289	Sync.Status	DEBUG	Status.login: success.status_ok => error.login.reason.network
+1557000661289	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1557000661289	Sync.BrowserIDManager	INFO	Failed to fetch the cluster URL: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:36:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:59:16
+getTokenFromBrowserIDAssertion@tokenserverclient.js:245:13
+1557000661289	Sync.Service	DEBUG	verifyLogin failed: TokenServerClientNetworkError({"error":{}})(resource://services-common/tokenserverclient.js:36:36) JS Stack trace: TokenServerClientNetworkError@tokenserverclient.js:59:16
+getTokenFromBrowserIDAssertion@tokenserverclient.js:245:13
+1557000661289	Sync.Status	DEBUG	Status.login: error.login.reason.network => error.login.reason.network
+1557000661289	Sync.Status	DEBUG	Status.service: error.login.failed => error.login.failed
+1557000661290	Sync.ErrorHandler	ERROR	Sync encountered a login error
+1557000661290	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1557000661290	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
+1557000661292	Sync.Service	DEBUG	Exception calling WrappedLock: Error: Login failed: error.login.reason.network(resource://services-sync/service.js:872:15) JS Stack trace: onNotify@service.js:872:15
+1557000661292	Sync.Service	DEBUG	Not syncing: login returned false.

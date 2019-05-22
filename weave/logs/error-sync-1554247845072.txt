@@ -1,0 +1,62 @@
+1554244375252	Sync.Service	INFO	Loading Weave 1.68.0
+1554244375254	Sync.Engine.Clients	DEBUG	Engine constructed
+1554244375255	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1554244375259	Sync.Engine.Addons	DEBUG	Engine constructed
+1554244375260	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1554244375262	Sync.Engine.Forms	DEBUG	Engine constructed
+1554244375263	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1554244375265	Sync.Engine.History	DEBUG	Engine constructed
+1554244375266	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1554244375267	Sync.Engine.Passwords	DEBUG	Engine constructed
+1554244375268	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1554244375270	Sync.Engine.Prefs	DEBUG	Engine constructed
+1554244375271	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1554244375273	Sync.Engine.Tabs	DEBUG	Engine constructed
+1554244375274	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1554244375274	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1554244375275	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1554244375276	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1554244375278	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1554244375279	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1554244375279	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+1554244375280	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1554244375280	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1554244375280	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1554244375282	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1554244380454	Sync.RemoteTabs	INFO	Generating tab list with filter
+1554244380454	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1554244383505	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244384530	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244389742	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244400513	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244423461	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244424233	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244429031	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244449934	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244535555	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554244578842	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554247845058	Sync.Service	DEBUG	User-Agent: Firefox/66.0.2 (Linux x86_64) FxSync/1.68.0.20190328071059.desktop
+1554247845059	Sync.Service	INFO	Starting sync at 2019-04-02 16:30:45 in browser session eVDWK1PFerjz
+1554247845059	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554247845065	Sync.Status	INFO	Resetting Status.
+1554247845065	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1554247845065	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1554247845065	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1554247845065	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:48:13) JS Stack trace: sync@enginesync.js:48:13
+onNotify@service.js:1139:13
+WrappedNotify@util.js:177:27
+WrappedLock@util.js:133:22
+_lockedSync@service.js:1132:12
+sync/<@service.js:1124:13
+WrappedCatch@util.js:103:22
+sync@service.js:1113:12
+1554247845066	Sync.SyncScheduler	DEBUG	Client count: 0 -> 3
+1554247845067	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1554247845070	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:48:13) JS Stack trace: sync@enginesync.js:48:13
+onNotify@service.js:1139:13
+WrappedNotify@util.js:177:27
+WrappedLock@util.js:133:22
+_lockedSync@service.js:1132:12
+sync/<@service.js:1124:13
+WrappedCatch@util.js:103:22
+sync@service.js:1113:12

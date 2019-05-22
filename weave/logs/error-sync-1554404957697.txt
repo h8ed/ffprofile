@@ -1,0 +1,12 @@
+1554404302485	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1554404902487	Sync.Service	DEBUG	User-Agent: Firefox/66.0.2 (Linux x86_64) FxSync/1.68.0.20190328071059.desktop
+1554404902487	Sync.Service	INFO	Starting sync at 2019-04-04 12:08:22 in browser session 4paW04POW_aC
+1554404902489	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554404902494	Sync.Status	INFO	Resetting Status.
+1554404902494	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1554404957683	Sync.Resource	WARN	GET request to https://sync-623-us-west-2.sync.services.mozilla.com/1.5/96838625/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1554404957684	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1554404957684	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1554404957685	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1554404957687	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1554404957696	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

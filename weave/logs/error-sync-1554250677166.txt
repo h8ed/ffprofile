@@ -1,0 +1,69 @@
+1554248448681	Sync.Service	INFO	Loading Weave 1.68.0
+1554248448683	Sync.Engine.Clients	DEBUG	Engine constructed
+1554248448683	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1554248448692	Sync.Engine.Addons	DEBUG	Engine constructed
+1554248448710	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1554248448718	Sync.Engine.Forms	DEBUG	Engine constructed
+1554248448730	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1554248448732	Sync.Engine.History	DEBUG	Engine constructed
+1554248448744	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1554248448747	Sync.Engine.Passwords	DEBUG	Engine constructed
+1554248448758	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1554248448761	Sync.Engine.Prefs	DEBUG	Engine constructed
+1554248448770	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1554248448771	Sync.Engine.Tabs	DEBUG	Engine constructed
+1554248448779	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1554248448779	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1554248448780	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1554248448785	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1554248448790	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1554248448793	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1554248448793	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+1554248448795	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1554248448795	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1554248448796	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1554248448798	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1554248524006	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554248568886	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554248571982	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554248720971	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554248744657	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249351245	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249427369	Sync.RemoteTabs	INFO	Generating tab list with filter
+1554249427370	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1554249443351	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249444649	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249447569	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249814806	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249835964	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249838395	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249859031	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249859530	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554249859961	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554250075150	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: true
+1554250320350	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554250677148	Sync.Service	DEBUG	User-Agent: Firefox/66.0.2 (Linux x86_64) FxSync/1.68.0.20190328071059.desktop
+1554250677151	Sync.Service	INFO	Starting sync at 2019-04-02 17:17:57 in browser session S8t3Z0E3MHpY
+1554250677152	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554250677160	Sync.Status	INFO	Resetting Status.
+1554250677160	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1554250677160	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1554250677160	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1554250677160	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:48:13) JS Stack trace: sync@enginesync.js:48:13
+onNotify@service.js:1139:13
+WrappedNotify@util.js:177:27
+WrappedLock@util.js:133:22
+_lockedSync@service.js:1132:12
+sync/<@service.js:1124:13
+WrappedCatch@util.js:103:22
+sync@service.js:1113:12
+1554250677161	Sync.SyncScheduler	DEBUG	Client count: 0 -> 3
+1554250677162	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1554250677165	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:48:13) JS Stack trace: sync@enginesync.js:48:13
+onNotify@service.js:1139:13
+WrappedNotify@util.js:177:27
+WrappedLock@util.js:133:22
+_lockedSync@service.js:1132:12
+sync/<@service.js:1124:13
+WrappedCatch@util.js:103:22
+sync@service.js:1113:12

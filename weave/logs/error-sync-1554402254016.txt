@@ -1,0 +1,18 @@
+1554401686570	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1554402244301	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1554402244302	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554402244314	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1554402245301	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1554402253993	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1554402253993	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1554402253998	Sync.Service	DEBUG	User-Agent: Firefox/66.0.2 (Linux x86_64) FxSync/1.68.0.20190328071059.desktop
+1554402253998	Sync.Service	INFO	Starting sync at 2019-04-04 11:24:13 in browser session 4paW04POW_aC
+1554402253999	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554402254003	Sync.Status	INFO	Resetting Status.
+1554402254003	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1554402254011	Sync.Resource	WARN	GET request to https://sync-623-us-west-2.sync.services.mozilla.com/1.5/96838625/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1554402254012	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1554402254012	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1554402254012	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1554402254013	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1554402254015	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

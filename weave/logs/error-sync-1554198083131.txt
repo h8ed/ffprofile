@@ -1,0 +1,74 @@
+1554181553069	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1554198071089	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1554198071089	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554198072164	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1554198072169	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1554198083094	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1554198083094	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1554198083098	Sync.Service	DEBUG	User-Agent: Firefox/66.0.2 (Linux x86_64) FxSync/1.68.0.20190328071059.desktop
+1554198083098	Sync.Service	INFO	Starting sync at 2019-04-02 02:41:23 in browser session UrikQF6pFrQ2
+1554198083099	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554198083103	Sync.Status	INFO	Resetting Status.
+1554198083103	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1554198083105	Sync.BrowserIDManager	INFO	Getting keys
+1554198083106	Sync.BrowserIDManager	INFO	Getting an assertion from: https://token.services.mozilla.com/1.0/sync/1.5
+1554198083106	FirefoxAccounts	DEBUG	enter getAssertion()
+1554198083107	FirefoxAccounts	DEBUG	getCertificateSigned: true true
+1554198083110	Services.Common.RESTRequest	TRACE	local time, offset: 1554198083110, -1164
+1554198083113	Services.Common.RESTRequest	DEBUG	POST request to https://api.accounts.firefox.com/v1/certificate/sign
+1554198083113	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1554198083113	Services.Common.RESTRequest	TRACE	HTTP Header content-type: application/json
+1554198083113	Services.Common.RESTRequest	TRACE	HTTP Header accept-language: en-US, en
+1554198083113	Services.Common.RESTRequest	DEBUG	POST Length: 888
+1554198083113	Services.Common.RESTRequest	TRACE	POST Body: {"publicKey":{"algorithm":"DS","y":"35F695182704C2A969B70EF7259B24EA3F65176909AF0C65C126445ADE81D56C24B3D29411AE3907DC0BC3238F71CF5256F2D05ACB3B3F95F52D01D6D852D0A891F32BAC8B983FC6DD2955FC0D9A308EA54D083DC6AA8CB40C549E8E22C86FF8B2FEC29D223B445315F7B298F17CC695F824000FF46461BAC070F98AF0E98948","p":"FF600483DB6ABFC5B45EAB78594B3533D550D9F1BF2A992A7A8DAA6DC34F8045AD4E6E0C429D334EEEAAEFD7E23D4810BE00E4CC1492CBA325BA81FF2D5A5B305A8D17EB3BF4A06A349D392E00D329744A5179380344E82A18C47933438F891E22AEEF812D69C8F75E326CB70EA000C3F776DFDBD604638C2EF717FC26D02E17","q":"E21E04F911D1ED7991008ECAAB3BF775984309C3","g":"C52A4A0FF3B7E61FDF1867CE84138369A6154F4AFA92966E3C827E25CFA6CF508B90E5DE419E1337E07A2E9E2A3CD5DEA704D175F8EBF6AF397D69E110B96AFB17C7A03259329E4829B0D03BBC7896B15B4ADE53E130858CC34D96269AA89041F409136C7242A38895C9D5BCCAD4F389AF1D7A4BD1398BD072DFFA896233397A"},"duration":21600000}
+1554198083115	Services.Common.RESTRequest	TRACE	onStartRequest: POST https://api.accounts.firefox.com/v1/certificate/sign
+1554198083116	Services.Common.RESTRequest	TRACE	Channel for POST https://api.accounts.firefox.com/v1/certificate/sign returned status code 2152398878
+1554198083116	Services.Common.RESTRequest	DEBUG	POST https://api.accounts.firefox.com/v1/certificate/sign failed: 2152398878 - NS_ERROR_UNKNOWN_HOST
+1554198083116	Services.Common.RESTRequest	TRACE	POST body: 
+1554198083116	Hawk	WARN	hawk request error: [Exception... "NS_ERROR_UNKNOWN_HOST"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "JS frame :: resource://services-common/rest.js :: onStopRequest :: line 437"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.js:437
+1554198083117	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get status :: line 571"  data: no] Stack trace: get status()@resource://services-common/rest.js:571
+request()@resource://services-common/hawkclient.js:226
+1554198083117	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get statusText :: line 586"  data: no] Stack trace: get statusText()@resource://services-common/rest.js:586
+request()@resource://services-common/hawkclient.js:229
+1554198083118	Hawk	DEBUG	(Response) /certificate/sign: code: null - Status text: null
+1554198083118	Services.Common.RESTResponse	TRACE	Processing response headers.
+1554198083118	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get headers :: line 618"  data: no] Stack trace: get headers()@resource://services-common/rest.js:618
+_maybeNotifyBackoff()@resource://services-common/hawkclient.js:290
+request()@resource://services-common/hawkclient.js:236
+1554198083118	Services.Common.RESTResponse	TRACE	Processing response headers.
+1554198083118	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get headers :: line 618"  data: no] Stack trace: get headers()@resource://services-common/rest.js:618
+_maybeNotifyBackoff()@resource://services-common/hawkclient.js:290
+request()@resource://services-common/hawkclient.js:237
+1554198083118	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get statusText :: line 586"  data: no] Stack trace: get statusText()@resource://services-common/rest.js:586
+_constructError()@resource://services-common/hawkclient.js:118
+request()@resource://services-common/hawkclient.js:242
+1554198083119	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get status :: line 571"  data: no] Stack trace: get status()@resource://services-common/rest.js:571
+_constructError()@resource://services-common/hawkclient.js:119
+request()@resource://services-common/hawkclient.js:242
+1554198083119	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get status :: line 571"  data: no] Stack trace: get status()@resource://services-common/rest.js:571
+_constructError()@resource://services-common/hawkclient.js:120
+request()@resource://services-common/hawkclient.js:242
+1554198083119	Services.Common.RESTResponse	TRACE	Processing response headers.
+1554198083119	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.js :: get headers :: line 618"  data: no] Stack trace: get headers()@resource://services-common/rest.js:618
+_constructError()@resource://services-common/hawkclient.js:125
+request()@resource://services-common/hawkclient.js:242
+1554198083119	FirefoxAccounts	ERROR	error POSTing /certificate/sign: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 437\"  data: no]","message":null,"code":null,"errno":null}
+1554198083119	FirefoxAccounts	ERROR	HAWK.signCertificate error: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 437\"  data: no]","message":null,"code":null,"errno":null}
+1554198083120	Sync.BrowserIDManager	ERROR	Non-authentication error in _fetchTokenForUser: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 437\"  data: no]","message":null,"code":null,"errno":null}
+1554198083120	Sync.Status	DEBUG	Status.login: success.login => error.login.reason.network
+1554198083120	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1554198083120	Sync.BrowserIDManager	ERROR	Failed to fetch a token for authentication: {"error":{},"errorString":"[Exception... \"NS_ERROR_UNKNOWN_HOST\"  nsresult: \"0x804b001e (NS_ERROR_UNKNOWN_HOST)\"  location: \"JS frame :: resource://services-common/rest.js :: onStopRequest :: line 437\"  data: no]","message":null,"code":null,"errno":null}
+1554198083122	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1554198083122	FirefoxAccounts	DEBUG	getOAuthToken enter
+1554198083123	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1554198083123	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1554198083123	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1554198083123	Services.Common.RESTRequest	TRACE	HTTP Header authorization: ***** (suppressed)
+1554198083123	Services.Common.RESTRequest	TRACE	HTTP Header accept: application/json
+1554198083123	Services.Common.RESTRequest	TRACE	HTTP Header if-none-match: "c35440f8bf0d024d03ac28b907a6f5f92c6e3b78-gzip"
+1554198083125	Sync.Resource	WARN	GET request to https://sync-623-us-west-2.sync.services.mozilla.com/1.5/96838625/info/collections failed: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1554198083125	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1554198083125	Sync.Status	DEBUG	Status.service: error.login.failed => error.sync.failed
+1554198083125	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available
+1554198083126	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1554198083130	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "The lookup of the hostname failed"  nsresult: "0x804b001e (NS_ERROR_UNKNOWN_HOST)"  location: "<unknown>"  data: no] No traceback available

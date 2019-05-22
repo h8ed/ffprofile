@@ -1,0 +1,78 @@
+1554229628671	Sync.Service	INFO	Loading Weave 1.68.0
+1554229628672	Sync.Engine.Clients	DEBUG	Engine constructed
+1554229628673	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1554229628676	Sync.Engine.Addons	DEBUG	Engine constructed
+1554229628693	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1554229628701	Sync.Engine.Forms	DEBUG	Engine constructed
+1554229628713	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1554229628717	Sync.Engine.History	DEBUG	Engine constructed
+1554229628728	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1554229628730	Sync.Engine.Passwords	DEBUG	Engine constructed
+1554229628740	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1554229628743	Sync.Engine.Prefs	DEBUG	Engine constructed
+1554229628752	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1554229628754	Sync.Engine.Tabs	DEBUG	Engine constructed
+1554229628756	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1554229628756	Sync.Engine.Tabs	DEBUG	Resetting tabs last sync time
+1554229628758	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1554229628769	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1554229628773	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1554229628775	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1554229628776	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0
+1554229628777	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1554229628778	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1554229628778	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1554229628859	Services.Common.RESTRequest	TRACE	onStartRequest: GET https://profile.accounts.firefox.com/v1/profile
+1554229628861	Services.Common.RESTRequest	TRACE	Channel for GET https://profile.accounts.firefox.com/v1/profile returned status code 0
+1554229628862	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1554229636035	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229637391	Sync.RemoteTabs	INFO	Generating tab list with filter
+1554229637392	Sync.RemoteTabs	INFO	Final tab list has 0 clients with 0 tabs.
+1554229639649	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229683095	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229688495	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229700768	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229709873	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229711537	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229713669	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229880890	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229881618	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229892267	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229895472	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229906886	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229917024	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554229917902	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230166952	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230168092	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230169878	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230171456	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230214298	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230215451	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230227424	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230227633	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230227751	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230627227	Sync.Service	DEBUG	User-Agent: Firefox/66.0.2 (Linux x86_64) FxSync/1.68.0.20190328071059.desktop
+1554230627230	Sync.Service	INFO	Starting sync at 2019-04-02 11:43:47 in browser session T6gEHItuExbP
+1554230627231	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1554230627240	Sync.Status	INFO	Resetting Status.
+1554230627240	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1554230627240	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1554230627241	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1554230627241	Sync.ErrorHandler	ERROR	Sync encountered an error: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:48:13) JS Stack trace: sync@enginesync.js:48:13
+onNotify@service.js:1139:13
+WrappedNotify@util.js:177:27
+WrappedLock@util.js:133:22
+_lockedSync@service.js:1132:12
+sync/<@service.js:1124:13
+WrappedCatch@util.js:103:22
+sync@service.js:1113:12
+1554230627242	Sync.SyncScheduler	DEBUG	Client count: 0 -> 3
+1554230627243	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1554230627246	Sync.Service	DEBUG	Exception calling anonymous function: Error: Can't sync: Network is offline(resource://services-sync/stages/enginesync.js:48:13) JS Stack trace: sync@enginesync.js:48:13
+onNotify@service.js:1139:13
+WrappedNotify@util.js:177:27
+WrappedLock@util.js:133:22
+_lockedSync@service.js:1132:12
+sync/<@service.js:1124:13
+WrappedCatch@util.js:103:22
+sync@service.js:1113:12
